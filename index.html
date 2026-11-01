@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloom Duo Hub - Main Portal</title>
+    
+    <!-- Google Fonts & Font Awesome Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Floating Petals Canvas Effect Container -->
+    <div id="petal-container"></div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <a href="#" class="logo">
+    <span class="logo-badge"><i class="fa-solid fa-face-smile"></i></span>
+    <span class="logo-text">Smile<span>craft</span></span>
+</a>
+        <ul class="nav-links">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#websites">Web Portals</a></li>
+        </ul>
+        <div class="nav-badge">
+            <i class="fa-solid fa-seedling"></i> Est. 2026
+        </div>
+    </nav>
+
+
+<!-- Hero Section -->
+<header class="hero">
+
+    <!-- Video Background -->
+    <video class="hero-video" autoplay muted loop playsinline>
+        <source src="./assets/background.mp4" type="video/mp4">
+    </video>
+
+    <!-- Video Overlay -->
+    <div class="video-overlay"></div>
+
+    <div class="hero-glow"></div>
+
+    <div class="hero-content">
+        <span class="sub-title">
+            <i class="fa-solid fa-sparkles"></i>
+            Welcome to Our Main Portal
+        </span>
+
+        <h1>Healthy Smiles, <span class="gradient-text">Sharp Styles</span></h1>
+
+        <p>One portal bringing together our two platforms: dental care that protects your smile, and a barber shop that perfects your look.</p>
+
+        <div class="hero-buttons">
+            <a href="#websites" class="btn btn-primary">Explore Portals <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#about" class="btn btn-outline">Meet The Founders</a>
+        </div>
+    </div>
+
+</header>
+
+
+    <!-- Interactive Daily Floral Quote Feature -->
+    <section class="quote-section">
+        <div class="quote-card">
+            <i class="fa-solid fa-quote-left quote-icon"></i>
+            <p id="daily-quote">"In a world full of roses, choose to be a wildflower of endless grace."</p>
+            <span id="quote-author">— Bloom Duo Inspiration</span>
+        </div>
+    </section>
+
+    <!-- About Us Section (2 Founders) -->
+    <section id="about" class="about-section">
+        <div class="section-title">
+            <span class="mini-tag">Our Story & Vision</span>
+            <h2>About The Founders</h2>
+            <div class="divider"><i class="fa-solid fa-leaf"></i></div>
+            <p>The two minds behind this portal, one caring for smiles and the other crafting sharp styles</p>
+        </div>
+
+     <div class="founders-grid">
+    <!-- Founder 1 -->
+    <div class="founder-card" onclick="this.classList.toggle('flipped')">
+        <div class="founder-card-inner">
+            <!-- Sisi Depan Kartu (Hanya Gambar Penuh) -->
+            <div class="founder-card-front">
+                <div class="founder-img-wrapper">
+                    <img src="assets/syazira.png" alt="SYAZIRA NABIHA BINTI AZAHRI">
+                    <div class="img-overlay"></div>
+                </div>
+            </div>
+
+            <!-- Sisi Belakang Kartu (Paparan Maklumat Terperinci) -->
+            <div class="founder-card-back">
+                <span class="flower-tag"><i class="fa-solid fa-seedling"></i> IKML DENTAL </span>
+                <h3>SYAZIRA NABIHA BINTI AZAHRI</h3>
+                <span class="role">Dental Platform Creator</span>
+                <div class="details-list">
+                    <p><strong>Why I Created This Website:</strong> “I wanted to bring dental services online with a simple, organised system that saves time for both patients and staff.”</p>
+                </div>
+                <div class="social-links">
+                        <a href="https://www.instagram.com/syzeyraa/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" onclick="event.stopPropagation()">
+        <i class="fa-brands fa-instagram"></i>
+        </a>
+    <a href="https://www.tiktok.com/@syazyyraa" target="_blank" rel="noopener noreferrer" aria-label="TikTok" onclick="event.stopPropagation()">
+        <i class="fa-brands fa-tiktok"></i>
+    </a>
+</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Founder 2 -->
+    <div class="founder-card" onclick="this.classList.toggle('flipped')">
+        <div class="founder-card-inner">
+            <!-- Sisi Depan Kartu (Hanya Gambar Penuh) -->
+            <div class="founder-card-front">
+                <div class="founder-img-wrapper">
+                    <img src="assets/amila.jpg" alt="NUR AMILA QISTINA BINTI REDHUAN" class="pos-amila">
+                    <div class="img-overlay"></div>
+                </div>
+            </div>
+
+            <!-- Sisi Belakang Kartu (Paparan Maklumat Terperinci) -->
+            <div class="founder-card-back">
+                <span class="flower-tag"><i class="fa-solid fa-seedling"></i> SALVATORE BARBERSHOP</span>
+                <h3>NUR AMILA QISTINA BINTI REDHUAN</h3>
+                <span class="role">Barbershop Platform Creator</span>
+                <div class="details-list">
+                    <p><strong>Why I Created This Website:</strong> “A great haircut builds confidence. I built this website to make it easy for anyone to find a barber they can trust and book in seconds.”</p>   
+                </div>
+                <div class="social-links">
+                    <a href="https://www.tiktok.com/@naqysss" target="_blank" rel="noopener noreferrer" aria-label="TikTok" onclick="event.stopPropagation()">
+        <i class="fa-brands fa-tiktok"></i>
+    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    </section>
+
+    <!-- Combined Websites Hub Section -->
+    <section id="websites" class="websites-section">
+        <div class="section-title">
+            <span class="mini-tag">Explore & Book</span>
+            <h2>Our Web Portals</h2>
+            <div class="divider"><i class="fa-solid fa-leaf"></i></div>
+            <p>From healthy smiles to fresh cuts, select a platform to get started.</p>
+        </div>
+
+        <!-- Tab Controls -->
+<div class="tab-container">
+    <button class="tab-btn active" onclick="openWebsite('web1', this)">
+        <i class="fa-solid fa-tooth"></i> IKML Dental
+    </button>
+    <button class="tab-btn" onclick="openWebsite('web2', this)">
+        <i class="fa-solid fa-scissors"></i> Salvatore Barbershop
+    </button>
+</div>
+
+<!-- Tab 1: IKML Dental -->
+<div id="web1" class="web-content active">
+    <div class="portal-card">
+        <div class="portal-icon"><i class="fa-solid fa-tooth"></i></div>
+        <h3>IKML Dental</h3>
+        <p>Book dental appointments online, quickly and easily.</p>
+        <a href=" https://ikmldental.infinityfree.io/ikml-care/" target="_blank" rel="noopener" class="btn btn-primary">
+            Open Fullsite <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+    </div>
+</div>
+
+<!-- Tab 2: Salvatore Barbershop -->
+<div id="web2" class="web-content">
+    <div class="portal-card">
+        <div class="portal-icon"><i class="fa-solid fa-scissors"></i></div>
+        <h3>Salvatore Barbershop</h3>
+        <p>Find a trusted barber and book in seconds.</p>
+        <a href="https://salvatorebarbershop.infinityfree.io/login.html" target="_blank" rel="noopener" class="btn btn-primary">
+            Open Fullsite <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+    </div>
+</div>
+    </section>
+
+    <<!-- Footer -->
+<footer>
+    <div class="footer-content">
+        <div class="footer-brand">
+            <i class="fa-solid fa-face-smile"></i>
+            <span>Smilecraft</span>
+        </div>
+        <p>&copy; 2026 Smilecraft. Healthy Smiles, Sharp Styles.</p>
+    </div>
+</footer>
+
+<!-- Background Music -->
+<audio id="backgroundMusic" loop>
+    <source src="assets/music.mp3" type="audio/mpeg">
+</audio>
+
+<!-- Music Player Button -->
+<button id="musicToggle" class="music-player" aria-label="Play music">
+    <i class="fa-solid fa-play"></i>
+    <span>Play Music</span>
+</button>
+
+<!-- Main JavaScript File -->
+<script src="script.js"></script>
+</body>
+</html>
